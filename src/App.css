@@ -1,0 +1,42 @@
+.container-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 80%;
+  background: rgba(72, 61, 139, 0.2);
+  position: relative;
+}
+
+.content-grid {
+  display: flex;
+}
+
+main {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  margin-left: 280px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+main h1 {
+  text-align: center;
+  margin: 40px 0 10px;
+  font-size: 28px;
+  font-weight: 400;
+  color: #6A5ACD;
+}
+
+main p {
+  text-align: center;
+  margin-top: 10px;
+  padding: 0 5%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+section {
+  padding-top: 20px;
+}

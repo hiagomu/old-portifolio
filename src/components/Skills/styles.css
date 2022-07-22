@@ -1,0 +1,33 @@
+section #skill-boxes span {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+section #skill-boxes {
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    gap: 8px;
+}
+
+.framework {
+    background: #e785e6;
+    background: linear-gradient(90deg, #e785e6 20%, #d044e6 50%, #bd54d4 100%);
+}
+
+.lang {
+    background: #7f79ec;
+    background: linear-gradient(90deg, #7f79ec 20%, #445ae6 50%, #6a54d4 100%);
+}
+
+.other {
+    background: #a179ec;
+    background: linear-gradient(90deg, #a179ec 20%, #a044e6 50%, #9d54d4 100%);
+}

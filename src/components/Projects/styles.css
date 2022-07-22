@@ -1,0 +1,88 @@
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects h2 {
+    margin-top: 10px;
+    color: #6A5ACD;
+    font-weight: 400;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    margin: 20px auto 0;
+    gap: 10px;
+    position: relative;
+}
+
+.project-image {
+    cursor: pointer;
+}
+
+.project-image:hover::after {
+    content:'';
+    position:absolute;
+    width: 160px;
+    height: 200px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.project-image img {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-data {
+    border-left: 4px solid #6A5ACD;
+    background: rgba(72, 61, 139, 0.4);
+    padding-left: 10px;
+    min-width: 300px;
+    max-height: 210px;
+    position: relative;
+}
+
+.project-data h2 {
+    margin-top: 10px;
+    color: #6A5ACD;
+    font-weight: 400;
+}
+
+.project-data p {
+    text-align: start;
+    width: 90%;
+    padding: 0;
+}
+
+.project-data .buttons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.project-data .buttons a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: rgba(72, 61, 139, 0.8);
+    border-bottom: 3px solid #6A5ACD;
+    transition: all 0.5s;
+}
+
+.project-data .buttons a:hover {
+    background: rgba(72, 61, 139, 0.5);
+    border-bottom: 3px solid white;
+}
